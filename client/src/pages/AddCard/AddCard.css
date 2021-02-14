@@ -1,3 +1,36 @@
+.addcard {
+  padding: 30px;
+ 
+}
+
 h2 {
-  color: red;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+color: red;
+}
+
+.cardform {
+border: thin solid blue;
+border-radius: 10px;
+/* background: linear-gradient(0.25turn, lightblue, lightgray, lightblue); */
+padding: 20px;
+}
+
+.submitButton {
+border: thin solid blue;
+border-radius: 20px;
+margin-top: 20px;
+background-color: lightslategray;
+padding: 5px 15px;
+color: white;
+font-size: 28px;
+}
+
+input {
+width: 100%;
+border: none;
+border-bottom: 1px solid whitesmoke;
+}
+
+label {
+justify-content: center;
 }
