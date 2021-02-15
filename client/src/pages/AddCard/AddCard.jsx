@@ -52,9 +52,7 @@ class AddCard extends Component {
       term
     }
 
-    axios.post("/card", {
-      obj
-    })
+    axios.post("/card", obj)
     .then((res) => {
       console.log("res: ", res);
     })
