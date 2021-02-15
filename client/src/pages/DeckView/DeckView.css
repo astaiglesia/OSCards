@@ -1,0 +1,30 @@
+.deckview {
+  padding: 30px;
+}
+  
+.deckview h2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: blue;
+}
+
+.flashcard {
+  border: thin solid blue;
+  border-radius: 10px;
+  /* background: linear-gradient(0.25turn, lightblue, lightgray, lightblue); */
+  padding: 20px;
+}
+
+/* ### for direct access deck buttons */
+.deckbutton {
+  margin: 10px;
+  background-color: burlywood;
+}
+
+.flashcard input {
+  color: blue;
+}
+
+.flashcard button {
+  color: blue;
+  background-color: white;
+}
