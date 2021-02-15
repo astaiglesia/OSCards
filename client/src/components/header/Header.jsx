@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom'
 import "./Header.css";
 
+// component to render static page header
 class Header extends Component {
   render () {
     return (

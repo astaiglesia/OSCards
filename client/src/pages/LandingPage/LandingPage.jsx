@@ -7,9 +7,8 @@ class AddCard extends Component {
   constructor(props) {
     super(props);
     this.state = {
-        term: '',
-        definition: '',
-        deck: ''
+        username: '',
+        password: ''
     }
     this.handleSubmit = this.handleSubmit.bind(this);
     this.handleTerm = this.handleTerm.bind(this);
@@ -97,5 +96,3 @@ class AddCard extends Component {
 }
 
 export default AddCard;
-
-
